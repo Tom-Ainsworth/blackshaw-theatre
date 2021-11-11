@@ -1,6 +1,7 @@
 #main-logo {
     max-width: 100vw;
     max-height: 25vh;
-    overflow: hidden;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
