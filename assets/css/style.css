@@ -3,10 +3,38 @@
 body {
     font-family: "Open-Sans", Domine;
 }
+
+/* Main Logo */
+
 #main-logo {
     max-width: 100vw;
     max-height: 25vh;
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+/* Navigation Bar */
+
+nav {
+    text-align: center;
+}
+
+#nav-bar ul {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0;
+}
+
+#nav-bar li {
+    display: inline;
+    float: left;
+    list-style-type: none;
+    padding: 0px 2px;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: inherit;
+    padding: calc(5px + 1vw)
 }
