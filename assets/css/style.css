@@ -5,6 +5,14 @@ body {
 
 }
 
+h1 {
+    font-size: 28px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -76,8 +84,11 @@ nav {
     top: 0;
     color: white;
     width: 100%;
-    padding: 20px;
+    padding: 20px 0px;
     text-align: center;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
 }
 
 #cover-text-bottom {
@@ -85,6 +96,9 @@ nav {
     bottom: 0%;
     color: white;
     width: 100%;
-    padding: 20;
+    padding: 20px 0px;
     text-align: center;
+    background: rgb(0, 0, 0); /* Fallback color */
+    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+    color: #f1f1f1;
 }
