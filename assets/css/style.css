@@ -2,8 +2,14 @@
 
 body {
     font-family: "Open-Sans", Domine;
+
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 /* Main Logo */
 
 #main-logo {
@@ -12,12 +18,14 @@ body {
     margin-left: auto;
     margin-right: auto;
     display: block;
+    margin-top: 12px;
 }
 
 /* Navigation Bar */
 
 nav {
     text-align: center;
+    margin: 8px;
 }
 
 #nav-bar ul {
@@ -52,7 +60,12 @@ nav {
 /* Hero Image and Title */
 
 #hero-image {
-    height: 600px;
+    height: 400px;
     width: 100%;
-    background: url(../images/Main\ Photo.jpg) no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/Hero\ image\ mobile.jpeg) no-repeat center center;
+    position: relative;
+}
+
+#cover-text-container {
+
 }
