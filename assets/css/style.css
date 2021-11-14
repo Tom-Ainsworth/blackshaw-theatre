@@ -14,11 +14,13 @@ body {
 
 h1 {
     font-size: 28px;
+    padding: 20px 0px;
 }
 
 h2 {
     font-size: 20px;
     padding: 20px 0px;
+    text-decoration: underline;
 }
 
 p {
@@ -94,7 +96,7 @@ nav {
     top: 0;
     color: white;
     width: 100%;
-    padding: 20px 0px;
+    /* padding: 20px 0px; */
     text-align: center;
     background: rgb(0, 0, 0);
     /* Fallback color */
@@ -118,12 +120,8 @@ nav {
 /* Desciption Section "We Are Blackshaw" */
 
 #description {
-    color: #ffffff;
-    background-color: #000000;
-}
-
-#description h2 {
-    text-decoration: underline;
+    background-color: #ffffff;
+    color: #000000;
 }
 
 #description p {
@@ -134,13 +132,13 @@ nav {
     padding: 0px 0px 20px;
 }
 #description-buttons a {
-    border: 1px solid white;
-    color: white;
+    border: 1px solid black;
+    color: black;
     padding: 1px 5px;
     margin-left: 10px;
 }
 
 #description-buttons a:hover {
-    color: black;
-    background-color: white;
+    color: white;
+    background-color: black;
 }
