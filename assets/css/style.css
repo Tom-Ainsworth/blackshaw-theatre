@@ -7,10 +7,13 @@ body {
 
 h1 {
     font-size: 28px;
+    text-align: center;
 }
 
 h2 {
     font-size: 20px;
+    text-align: center;
+    padding: 20px 0px;
 }
 
 * {
@@ -97,7 +100,6 @@ nav {
     color: white;
     width: 100%;
     padding: 20px 0px;
-    text-align: center;
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1;
