@@ -15,7 +15,7 @@ h2 {
 }
 
 p {
-    
+    font-size: 0.9rem;
 }
 
 * {
@@ -39,7 +39,6 @@ p {
 /* Navigation Bar */
 
 nav {
-    text-align: center;
     margin: 8px;
 }
 
@@ -94,7 +93,7 @@ nav {
     text-align: center;
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    color: #f1f1f1;
+    color: #ffffff;
 }
 
 #cover-text-bottom {
@@ -113,4 +112,12 @@ nav {
 #description {
     color: #ffffff;
     background-color: #000000;
+}
+
+#description h2 {
+    text-decoration: underline;
+}
+
+#description p {
+    padding: 0px 10px 20px;
 }
