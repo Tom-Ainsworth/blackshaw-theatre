@@ -142,3 +142,7 @@ nav {
     color: white;
     background-color: black;
 }
+
+#whats-on p {
+    padding: 0px 20px 20px;
+}
