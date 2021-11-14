@@ -129,3 +129,18 @@ nav {
 #description p {
     padding: 0px 10px 20px;
 }
+
+#description-buttons {
+    padding: 0px 0px 20px;
+}
+#description-buttons a {
+    border: 1px solid white;
+    color: white;
+    padding: 1px 5px;
+    margin-left: 10px;
+}
+
+#description-buttons a:hover {
+    color: black;
+    background-color: white;
+}
