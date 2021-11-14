@@ -101,7 +101,6 @@ nav {
     bottom: 0%;
     color: white;
     width: 100%;
-    padding: 20px 0px;
     background: rgb(0, 0, 0); /* Fallback color */
     background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
     color: #f1f1f1;
