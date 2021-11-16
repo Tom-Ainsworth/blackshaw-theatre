@@ -133,17 +133,17 @@ nav {
     padding: 0px 10px 20px;
 }
 
-#description-buttons {
+.two-buttons {
     padding: 0px 0px 20px;
 }
-#description-buttons a {
+.two-buttons a {
     border: 1px solid black;
     color: black;
     padding: 1px 5px;
     margin-left: 10px;
 }
 
-#description-buttons a:hover {
+.two-buttons a:hover {
     color: white;
     background-color: black;
 }
@@ -159,5 +159,6 @@ nav {
     margin-left: auto;
     margin-right: auto;
     height: 400px;
+    padding: 0px 0px 20px;
 }
 
