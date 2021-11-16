@@ -173,8 +173,10 @@ nav {
   
   .image {
     display: block;
-    width: 100%;
+    width: 90%;
     height: 300px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .overlay {
@@ -184,28 +186,36 @@ nav {
     left: 0;
     right: 0;
     height: 300px;
-    width: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     opacity: 0;
     transition: .5s ease;
-    background-color: #008CBA;
+    background-color: black;
   }
   
   .staff-bio:hover .overlay {
-    opacity: 1;
+    opacity: 0.9;
   }
   
   .text {
     color: white;
     font-size: 20px;
     position: absolute;
-    top: 50%;
+    /* top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
   }
 
-  .staff-bio p {
-      text-align: left;
+  .text h3 {
+      padding: 20px 0px;
+  }
+  .text p {
+      text-align: center;
       font-size: 0.8rem;
-      width: 100%;
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 10px;
   }
