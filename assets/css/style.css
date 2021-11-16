@@ -150,11 +150,11 @@ nav {
 
 /* What's On Section */
 
-#whats-on p {
+.whats-on p {
     padding: 0px 20px 20px;
 }
 
-#whats-on img {
+.whats-on img {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
