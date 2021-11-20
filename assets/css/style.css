@@ -259,3 +259,20 @@ form textarea {
 }
 
 /* Footer Section */
+
+footer {
+    margin: 20px;
+}
+footer ul {
+   
+}
+footer a {
+    list-style-type: none;
+    text-decoration: none;
+    color: inherit;
+}
+
+footer li {
+    display: inline;
+    padding: 0px 20px;
+}
