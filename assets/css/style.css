@@ -228,7 +228,6 @@ nav {
     width: 90%;
     padding: 20px 20px;
     box-sizing: border-box;
-    position: relative;
 }
 
 #form-section .text-input {
@@ -259,3 +258,4 @@ form textarea {
     display: block;
 }
 
+/* Footer Section */
