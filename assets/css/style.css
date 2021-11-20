@@ -36,7 +36,7 @@ p {
 
 /* Main Logo */
 
-#main-logo {
+.main-logo {
     max-width: 100vw;
     max-height: 25vh;
     margin-left: auto;
