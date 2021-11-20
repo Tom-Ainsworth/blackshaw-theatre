@@ -13,23 +13,23 @@ body {
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 7vw;
     padding: 20px 0px;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 4vw;
     padding: 20px 0px;
     text-decoration: underline;
 }
 
 h3 {
     padding: 0px 20px 20px;
-    font-size: 18px;
+    font-size: 3.2vw;
 }
 
 p {
-    font-size: 0.9rem;
+    font-size: 2.8vw;
 }
 
 
@@ -222,31 +222,32 @@ nav {
 
 #form-section {
     color: #cdd0d4;
-    background-color: #232324;
+    background-color: black;
     margin-left: auto;
     margin-right: auto;
-    width: 90%;
+    width: 80%;
     padding: 20px 20px;
     box-sizing: border-box;
+    border-radius: 5px;
 }
 
 #form-section .text-input {
     display: block;
     display: inline-block;
     margin: 5px 0px 10px;
-    width: 90%;
+    width: 80%;
     border: 2px solid #cdd0d4;
     border-radius: 5px;
     color: #cdd0d4;
-    background-color: #232324;
+    background-color: black;
     font-family: "Open-Sans", Domine;
 }
 
 form textarea {
     color: #cdd0d4;
-    background-color: #232324;
+    background-color: black;
     display: block;
-    width: 90%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
@@ -288,4 +289,8 @@ footer li {
     display: inline;
     padding: 0px 40px;
     font-size: 2rem;
+}
+
+@media screen and (min-width: 481px) {
+
 }
