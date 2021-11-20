@@ -17,7 +17,8 @@
 <body>
     <header>
         <a href="#home">
-            <img src="assets/images/blackshaw-logo-square.jpeg" alt="Blackshaw Theatre Logo" id="home" class="main-logo">
+            <img src="assets/images/blackshaw-logo-square.jpeg" alt="Blackshaw Theatre Logo" id="home"
+                class="main-logo">
         </a>
         <nav id="nav-bar">
             <ul>
@@ -95,7 +96,7 @@
     </section>
     <section id="about">
         <h2>About Us</h2>
-        
+
         <!-- Code structure taken from W3schools Image Hover Overlay -->
         <div class="staff-bio">
             <img src="assets/images/ellie-headshot.jpeg" alt="headshot of Ellie Pitkin" class="image">
@@ -134,7 +135,33 @@
             </div>
         </div>
     </section>
-    <section id="contact">Get In Touch</section>
+    <section id="contact">
+        <form>
+            <h2>Get In Touch</h2>
+            <div id="single-line-input">
+                <label for="fname">First Name: <em class="emphasis">(required)</em></label>
+                <input type="text" name="fname" id="fname" required placeholder="Ellie">
+
+                <label for="lname">Last Name: <em class="emphasis">(required)</em><em
+                        class="emphasis">(required)</em></label>
+                <input type="text" name="lname" id="fname" required placeholder="Pitkin">
+
+                <label for="email">Email: <em class="emphasis">(required)</em></label>
+                <input type="email" name="email" id="email" required placeholder="elliepitkin@email.co.uk">
+
+                <label for="phone">Mobile Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="07123 456 789" pattern="[0-9]{5}-[0-9]{3}-[0-9]{3}"
+                    required>
+
+                <label for="company">Company:</label>
+                <input type="text" name="company" id="company" placeholder="Blackshaw Theatre">
+            </div>
+            <div id="text-area">
+                <label for="message">Message: <em class="emphasis">(required)</em></label>
+                <textarea name="message" id="message" cols="10" rows="10" required placeholder="Let us know a bit about you, would you like to work with us? The more detailed you are, the better we can help!"></textarea>
+            </div>
+        </form>
+    </section>
     <footer>Social Links</footer>
 </body>
 
