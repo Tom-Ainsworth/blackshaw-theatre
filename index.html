@@ -143,32 +143,30 @@
 
     <!-- Contact Us Section -->
     <section id="contact">
-        <form>
+        <form id="form-section">
             <h2>Get In Touch</h2>
-            <div id="single-line-input">
-                <label for="fname">First Name: <em class="emphasis">(required)</em></label>
-                <input type="text" name="fname" id="fname" required placeholder="Ellie">
 
-                <label for="lname">Last Name: <em class="emphasis">(required)</em><em
-                        class="emphasis">(required)</em></label>
-                <input type="text" name="lname" id="fname" required placeholder="Pitkin">
+            <label for="fname">First Name: <em class="emphasis">(required)</em></label>
+            <input type="text" name="fname" id="fname" class="text-input" required placeholder="Ellie" >
 
-                <label for="email">Email: <em class="emphasis">(required)</em></label>
-                <input type="email" name="email" id="email" required placeholder="elliepitkin@email.co.uk">
+            <label for="lname">Last Name: <em class="emphasis">(required)</em></label>
+            <input type="text" name="lname" id="fname" class="text-input" required placeholder="Pitkin">
 
-                <label for="phone">Mobile Number:</label>
-                <input type="tel" id="phone" name="phone" placeholder="07123 456 789"
-                    pattern="[0-9]{5}-[0-9]{3}-[0-9]{3}" required>
+            <label for="email">Email: <em class="emphasis">(required)</em></label>
+            <input type="email" name="email" id="email" required placeholder="elliepitkin@email.co.uk"
+                class="text-input">
 
-                <label for="company">Company:</label>
-                <input type="text" name="company" id="company" placeholder="Blackshaw Theatre">
-            </div>
+            <label for="phone">Mobile Number: <em class="emphasis">(required)</em></label>
+            <input type="tel" id="phone" name="phone" placeholder="07123 456 789" pattern="[0-9]{5}-[0-9]{3}-[0-9]{3}"
+                required class="text-input">
 
-            <div id="text-area">
-                <label for="message">Message: <em class="emphasis">(required)</em></label>
-                <textarea name="message" id="message" cols="10" rows="10" required
-                    placeholder="Let us know a bit about you, would you like to work with us? The more detailed you are, the better we can help!"></textarea>
-            </div>
+            <label for="company">Company:</label>
+            <input type="text" name="company" id="company" placeholder="Blackshaw Theatre" class="text-input">
+
+            <label for="message">Message: <em class="emphasis">(required)</em></label>
+            <textarea name="message" id="message" cols="25" rows="15" required
+                placeholder="Let us know a bit about you, would you like to work with us? The more detailed you are, the better we can help!">
+            </textarea>
         </form>
     </section>
     <footer>Social Links</footer>

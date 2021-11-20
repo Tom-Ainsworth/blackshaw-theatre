@@ -35,7 +35,6 @@ p {
 
 
 /* Main Logo */
-
 .main-logo {
     max-width: 100vw;
     max-height: 25vh;
@@ -46,7 +45,6 @@ p {
 }
 
 /* Navigation Bar */
-
 nav {
     margin: 8px;
 }
@@ -120,7 +118,6 @@ nav {
 }
 
 /* Description Section "We Are Blackshaw" */
-
 #description {
     background-color: #ffffff;
     color: #000000;
@@ -133,6 +130,7 @@ nav {
 .two-buttons {
     padding: 0px 0px 20px;
 }
+
 .two-buttons a {
     border: 1px solid black;
     color: black;
@@ -146,7 +144,6 @@ nav {
 }
 
 /* What's On Section */
-
 .whats-on p {
     padding: 0px 20px 20px;
 }
@@ -159,7 +156,7 @@ nav {
     padding: 0px 0px 20px;
 }
 
-/* About Us */
+/* About Us Section*/
 
 /* main code structure adapted from w3Schools Image Hover Overlay - Fade in Text */
 .staff-bio {
@@ -169,17 +166,17 @@ nav {
     margin-left: auto;
     margin-right: auto;
     padding: 0px 0px 20px;
-  }
-  
-  .image {
+}
+
+.image {
     display: block;
     width: 90%;
     height: inherit;
     margin-left: auto;
     margin-right: auto;
-  }
-  
-  .overlay {
+}
+
+.overlay {
     position: absolute;
     top: 0;
     bottom: 0;
@@ -192,27 +189,54 @@ nav {
     opacity: 0;
     transition: .5s ease;
     background-color: black;
-  }
-  
-  .staff-bio:hover .overlay {
+}
+
+.staff-bio:hover .overlay {
     opacity: 0.9;
-  }
-  
-  .text {
+}
+
+.text {
     color: white;
     font-size: 20px;
     position: absolute;
     height: 300px;
-  }
+}
 
-  .text h3 {
-      padding: 20px 0px;
-  }
-  .text p {
-      text-align: center;
-      font-size: 0.8rem;
-      width: 80%;
-      margin-left: auto;
-      margin-right: auto;
-      padding: 10px;
-  }
+.text h3 {
+    padding: 20px 0px;
+}
+
+.text p {
+    text-align: center;
+    font-size: 0.8rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+/* Contact Section */
+#form-section {
+    color: #cdd0d4;
+    background-color: #232324;
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 1px solid red;
+}
+
+form textarea {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    padding: 5px;
+}
+}
+
+#form-section .text-input {
+    color: black;
+    display: inline-block;
+    background-color: blue;
+}
