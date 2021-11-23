@@ -303,6 +303,13 @@ footer li {
     font-size: 2rem;
 }
 
-/* @media screen and (min-width: 481px) { */
-
+@media screen and (min-width: 641px) {
+    #hero-image {
+        background: url('../images/main-photo-tablet.jpeg') no-repeat center center;
+    }
+    
+    .staff-bio {
+        width: 450px;
+        height: 550px;
+    }
 }
