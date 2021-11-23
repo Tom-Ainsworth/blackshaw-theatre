@@ -360,7 +360,7 @@ footer li {
 
     input,
     .submit-button {
-        font-size: 35px;
+        font-size: 20px;
     }
 
     h1, h2, h3, p {
@@ -375,9 +375,4 @@ footer li {
     #hero-section {
         height: 800px;
     }
-
-    #form-section input, #form-section label {
-        font-size: 20px;
-    }
-
 }
