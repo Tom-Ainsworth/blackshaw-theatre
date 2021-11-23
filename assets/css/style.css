@@ -243,7 +243,7 @@ nav {
     background-color: black;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: 100%;
     padding: 20px 20px;
     box-sizing: border-box;
     border-radius: 5px;
@@ -253,7 +253,7 @@ nav {
     display: block;
     display: inline-block;
     margin: 5px 0px 10px;
-    width: 80%;
+    width: 60%;
     border: 2px solid #cdd0d4;
     border-radius: 5px;
     color: #cdd0d4;
@@ -265,13 +265,13 @@ form textarea {
     color: #cdd0d4;
     background-color: black;
     display: block;
-    width: 80%;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
     padding: 10px 0px;
     border: 2px solid #cdd0d4;
-    border-radius: 5%;
+    border-radius: 5px;
     font-family: "Open-Sans", Domine;
 }
 
@@ -344,14 +344,18 @@ footer li {
 
 @media screen and (min-width: 1024px) {
 
+    #nav-bar a, .two-buttons {
+        font-size: 35px;
+    }
+
+    #hero-image {
+        background: url('../images/main-photo-desktop.jpeg') no-repeat center center;
+    }
+
     .whats-on img,
     .staff-bio {
         width: 550px;
-        height: 750px;
-    }
-
-    #nav-bar a, .two-buttons {
-        font-size: 35px;
+        height: 700px;
     }
 
     input,
@@ -362,4 +366,18 @@ footer li {
     h1, h2, h3, p {
         margin: 0 20%;
     }
+}
+
+@media screen and (min-width: 1920px) {
+    #hero-image {
+        background: url('../images/main-photo-largest.jpeg') no-repeat center center;
+    }
+    #hero-section {
+        height: 800px;
+    }
+
+    #form-section input, #form-section label {
+        font-size: 20px;
+    }
+
 }
