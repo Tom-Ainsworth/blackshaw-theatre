@@ -34,8 +34,14 @@
     <section>
         <div id="hero-container">
             <div>
-                <img src="assets/images/hero-image-mobile.jpeg" alt="A man and a woman dancing together"
-                    id="hero-image">
+                <picture>
+                    <source media="(min-width: 320px)" srcset="assets/images/main-photo-mobile">
+                    <source media="(min-width: 481x)" srcset="assets/images/main-photo-tablet">
+                    <source media="(min-width: 769px)" srcset="assets/images/main-photo-desktop">
+                    <img src="assets/images/main-photo-mobile.jpeg">
+                  </picture>
+                <!-- <img src="assets/images/hero-image-mobile.jpeg" alt="A man and a woman dancing together"
+                    id="hero-image"> -->
             </div>
             <div id="cover-text-top">
                 <h1>Blackshaw Theatre</h1>

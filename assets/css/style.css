@@ -45,7 +45,7 @@ p {
 
 /* Navigation Bar */
 nav {
-    margin: 8px;
+    margin: 8px 0px;
 }
 
 #nav-bar ul {
@@ -62,10 +62,10 @@ nav {
     box-sizing: border-box;
     background-color: black;
     color: white;
-    margin-left: 3px;
-    margin-right: 3px;
+    margin-left: 2px;
+    margin-right: 2px;
     border-radius: 3px;
-    padding: 5px 10px;
+    padding: 5px 5px;
 }
 
 #nav-bar li:hover {
@@ -75,7 +75,7 @@ nav {
 
 #nav-bar a {
     color: inherit;
-    padding: calc(5px + 1vw);
+    padding: calc(3px + 1vw);
     text-decoration: none;
 }
 
@@ -294,6 +294,6 @@ footer li {
     font-size: 2rem;
 }
 
-@media screen and (min-width: 481px) {
+/* @media screen and (min-width: 481px) { */
 
 }
