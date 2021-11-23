@@ -13,23 +13,28 @@ body {
 }
 
 h1 {
-    font-size: 7vw;
+    font-size: 6vw;
     padding: 20px 0px;
 }
 
 h2 {
-    font-size: 5vw;
+    font-size: 4vw;
     padding: 20px 0px;
     text-decoration: underline;
 }
 
 h3 {
     padding: 0px 20px 20px;
-    font-size: 4vw;
+    font-size: 3vw;
+    text-decoration: underline;
 }
 
 p {
-    font-size: 3vw;
+    font-size: 2vw;
+}
+
+h1, h2, h3, p {
+    margin: 0px 20px;
 }
 
 
@@ -345,10 +350,6 @@ footer li {
         height: 750px;
     }
 
-    h1, h2, h3, p {
-        margin: 0px 20px;
-    }
-
     #nav-bar a, .two-buttons {
         font-size: 35px;
     }
@@ -356,5 +357,9 @@ footer li {
     input,
     .submit-button {
         font-size: 35px;
+    }
+
+    h1, h2, h3, p {
+        margin: 0 20%;
     }
 }
