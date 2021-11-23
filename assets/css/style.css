@@ -89,8 +89,8 @@ nav {
 }
 
 #hero-container {
-    height: 400px;
-    width: 100%;
+    height: inherit;
+    width: inherit;
     position: relative;
     margin: 0 auto;
 }
@@ -99,7 +99,7 @@ nav {
     position: absolute;
     top: 0;
     color: white;
-    width: 100%;
+    width: inherit;
     text-align: center;
     background: rgb(0, 0, 0);
     /* Fallback color */
@@ -112,7 +112,7 @@ nav {
     position: absolute;
     bottom: 0%;
     color: white;
-    width: 100%;
+    width: inherit;
     background: rgb(0, 0, 0);
     /* Fallback color */
     background: rgba(0, 0, 0, 0.5);
@@ -121,8 +121,8 @@ nav {
 }
 
 #hero-image {
-    height: 400px;
-    width: 100%;
+    height: inherit;
+    width: inherit;
     background: url('../images/main-photo-mobile.jpeg') no-repeat center center;
 }
 
@@ -332,4 +332,8 @@ footer li {
     .submit-button {
         font-size: 20px;
     }
+}
+
+@media screen and (min-width: 1024px) {
+
 }
