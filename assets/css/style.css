@@ -33,7 +33,10 @@ p {
     font-size: 2vw;
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
     margin: 0px 20px;
 }
 
@@ -310,15 +313,20 @@ footer li {
 /* Media Queries */
 
 @media screen and (min-width: 380px) {
+
     .whats-on img,
     .staff-bio {
         height: 375px;
+    }
+    .text p {
+        font-size: 15px;
     }
 }
 
 @media screen and (min-width: 641px) {
 
-    #nav-bar a, .two-buttons {
+    #nav-bar a,
+    .two-buttons {
         font-size: 25px;
     }
 
@@ -340,11 +348,16 @@ footer li {
     .submit-button {
         font-size: 20px;
     }
+
+    .text p {
+        font-size: 20px;
+    }
 }
 
 @media screen and (min-width: 1024px) {
 
-    #nav-bar a, .two-buttons {
+    #nav-bar a,
+    .two-buttons {
         font-size: 35px;
     }
 
@@ -363,8 +376,15 @@ footer li {
         font-size: 20px;
     }
 
-    h1, h2, h3, p {
+    h1,
+    h2,
+    h3,
+    p {
         margin: 0 20%;
+    }
+
+    .text p {
+        font-size: 27px;
     }
 }
 
@@ -372,6 +392,7 @@ footer li {
     #hero-image {
         background: url('../images/main-photo-largest.jpeg') no-repeat center center;
     }
+
     #hero-section {
         height: 800px;
     }
