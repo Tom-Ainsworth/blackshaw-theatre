@@ -137,7 +137,7 @@ nav {
 }
 
 .two-buttons {
-    padding: 0px 0px 20px;
+    padding: 10px 0px 20px;
 }
 
 .two-buttons a {
@@ -165,7 +165,7 @@ nav {
     margin-left: auto;
     margin-right: auto;
     height: 400px;
-    padding: 0px 0px 20px;
+    padding: 0px;
     border-radius: 5px;
 }
 
