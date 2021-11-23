@@ -100,7 +100,6 @@ nav {
     top: 0;
     color: white;
     width: 100%;
-    
     text-align: center;
     background: rgb(0, 0, 0);
     /* Fallback color */
@@ -147,6 +146,7 @@ nav {
     padding: 1px 5px;
     margin-left: 10px;
     text-decoration: none;
+    border-radius: 5px;
 }
 
 .two-buttons a:hover {
@@ -166,6 +166,7 @@ nav {
     margin-right: auto;
     height: 400px;
     padding: 0px 0px 20px;
+    border-radius: 5px;
 }
 
 /* About Us Section*/
@@ -186,6 +187,7 @@ nav {
     height: inherit;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 5px;
 }
 
 .overlay {
@@ -201,6 +203,7 @@ nav {
     opacity: 0;
     transition: .5s ease;
     background-color: black;
+    border-radius: 5px;
 }
 
 .staff-bio:hover .overlay {
@@ -287,8 +290,6 @@ form textarea {
 footer {
     margin: 20px;
 }
-
-footer ul {}
 
 footer a {
     list-style-type: none;
