@@ -227,6 +227,7 @@ nav {
     color: white;
     position: absolute;
     height: inherit;
+    padding: 0% 10%;
 }
 
 .text h3 {
@@ -239,6 +240,7 @@ nav {
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
+    font-size: small;
 }
 
 /* Contact Section */
