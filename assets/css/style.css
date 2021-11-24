@@ -17,24 +17,24 @@ body {
 }
 
 h1 {
-    font-size: 6vw;
+    font-size: 32px;
     padding: 20px 0px;
 }
 
 h2 {
-    font-size: 4vw;
+    font-size: 24px;
     padding: 20px 0px;
     text-decoration: underline;
 }
 
 h3 {
     padding: 0px 20px 20px;
-    font-size: 3vw;
+    font-size: 22px;
     text-decoration: underline;
 }
 
 p {
-    font-size: 2vw;
+    font-size: 17px;
 }
 
 h1,
@@ -173,7 +173,7 @@ nav {
 }
 
 .whats-on img {
-    width: 80%;
+    width: 230px;
     margin-left: auto;
     margin-right: auto;
     height: 400px;
@@ -187,8 +187,8 @@ nav {
 /* main code structure adapted from w3Schools Image Hover Overlay - Fade in Text */
 .staff-bio {
     position: relative;
-    width: 80%;
-    height: 300px;
+    width: 230px;
+    height: 306px;
     margin-left: auto;
     margin-right: auto;
     padding: 0px 0px 20px;
@@ -196,7 +196,7 @@ nav {
 
 .image {
     display: block;
-    width: 90%;
+    width: inherit;
     height: inherit;
     margin-left: auto;
     margin-right: auto;
@@ -210,7 +210,7 @@ nav {
     left: 0;
     right: 0;
     height: inherit;
-    width: 90%;
+    width: inherit;
     margin-left: auto;
     margin-right: auto;
     opacity: 0;
@@ -235,7 +235,7 @@ nav {
 
 .text p {
     text-align: center;
-    width: 80%;
+    width: inherit;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
@@ -296,6 +296,19 @@ form textarea {
     font-size: 16px;
 }
 
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #cdd0d4;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #cdd0d4;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #cdd0d4;
+  }
+
 /* Footer Section */
 
 footer {
@@ -316,23 +329,7 @@ footer li {
 
 /* Media Queries */
 
-@media screen and (min-width: 380px) {
-
-    .whats-on img,
-    .staff-bio {
-        height: 375px;
-    }
-    .text p {
-        font-size: 15px;
-    }
-}
-
-@media screen and (min-width: 641px) {
-
-    #nav-bar a,
-    .two-buttons {
-        font-size: 25px;
-    }
+@media screen and (min-width: 768px) {
 
     #hero-section {
         height: 650px;
@@ -348,22 +345,9 @@ footer li {
         height: 650px;
     }
 
-    input,
-    .submit-button {
-        font-size: 20px;
-    }
-
-    .text p {
-        font-size: 20px;
-    }
 }
 
 @media screen and (min-width: 1024px) {
-
-    #nav-bar a,
-    .two-buttons {
-        font-size: 35px;
-    }
 
     #hero-image {
         background: url('../images/main-photo-desktop.jpeg') no-repeat center center;
@@ -371,24 +355,16 @@ footer li {
 
     .whats-on img,
     .staff-bio {
-        width: 550px;
+        width: 525px;
         height: 700px;
     }
 
-    input,
-    .submit-button {
-        font-size: 20px;
-    }
 
     h1,
     h2,
     h3,
     p {
         margin: 0 20%;
-    }
-
-    .text p {
-        font-size: 27px;
     }
 }
 
@@ -400,4 +376,11 @@ footer li {
     #hero-section {
         height: 800px;
     }
+
+    .whats-on img,
+    .staff-bio {
+        width: 525px;
+        height: 700px;
+    }
+
 }
