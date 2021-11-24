@@ -303,18 +303,22 @@ form textarea {
     font-size: 16px;
 }
 
-::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #cdd0d4;
-    opacity: 1; /* Firefox */
-  }
-  
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
     color: #cdd0d4;
-  }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
     color: #cdd0d4;
-  }
+}
 
 /* Footer Section */
 
@@ -338,6 +342,9 @@ footer li {
 
 @media screen and (min-width: 768px) {
 
+    .text p {
+        font-size: large;
+    }
     #hero-section {
         height: 650px;
     }
@@ -376,6 +383,20 @@ footer li {
 }
 
 @media screen and (min-width: 1201px) {
+    
+    .whats-on {
+        column-count: 2;
+    }
+
+    #show-1 {
+        float: left;
+        left: 5%;
+    }
+    #show-2 {
+        float: right;
+        right: 5%;
+    }
+    
     .staff-bio {
         column-count: 2;
     }
@@ -389,10 +410,6 @@ footer li {
         float: right;
         right: 5%;
     }
-
-    #staff-bio 3 {
-        clear: top: ;
-    }
 }
 
 @media screen and (min-width: 1920px) {
@@ -400,9 +417,7 @@ footer li {
         background: url('../images/main-photo-largest.jpeg') no-repeat center center;
     }
 
-    #hero
-
-    #hero-section {
+    #hero #hero-section {
         height: 800px;
     }
 
