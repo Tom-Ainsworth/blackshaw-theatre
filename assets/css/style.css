@@ -185,6 +185,7 @@ nav {
 /* About Us Section*/
 
 /* main code structure adapted from w3Schools Image Hover Overlay - Fade in Text */
+
 .staff-bio {
     position: relative;
     width: 230px;
@@ -247,13 +248,17 @@ nav {
 
 #contact {}
 
+#contact-section {
+    background-color: black;
+    color: #cdd0d4;
+}
+
 #form-section {
     color: #cdd0d4;
-    background-color: black;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    padding: 20px 20px;
+    padding: 0px 20px 20px;
     box-sizing: border-box;
     border-radius: 5px;
 }
@@ -367,6 +372,26 @@ footer li {
     h3,
     p {
         margin: 0 20%;
+    }
+}
+
+@media screen and (min-width: 1201px) {
+    .staff-bio {
+        column-count: 2;
+    }
+
+    #staff-bio-1 {
+        float: left;
+        left: 5%;
+    }
+
+    #staff-bio-2 {
+        float: right;
+        right: 5%;
+    }
+
+    #staff-bio 3 {
+        clear: top: ;
     }
 }
 
