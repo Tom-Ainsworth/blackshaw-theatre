@@ -339,6 +339,12 @@ footer li {
 }
 
 /* Media Queries */
+@media screen and (min-width: 641px) {
+    #hero-image {
+        background: url('../images/main-photo-tablet.jpeg') no-repeat center center;
+    }
+}
+
 
 @media screen and (min-width: 768px) {
 
@@ -383,20 +389,7 @@ footer li {
 }
 
 @media screen and (min-width: 1201px) {
-    
-    .whats-on {
-        column-count: 2;
-    }
 
-    #show-1 {
-        float: left;
-        left: 5%;
-    }
-    #show-2 {
-        float: right;
-        right: 5%;
-    }
-    
     .staff-bio {
         column-count: 2;
     }
