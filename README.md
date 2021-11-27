@@ -31,8 +31,6 @@ The client would like the site to include:
 - A contact form for any individials or businesses to get in touch for questions and collaborations
 - Social media links to Blackshaw's pages on Facebook, Instagram and Twitter
 
-
-
 ## User Experience (UX)
 
 -   ### User stories
@@ -41,18 +39,18 @@ The client would like the site to include:
 
         1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to look for testimonials to understand what their users think of them and see if they are trusted. I also want to locate their social media links to see their followings on social media to determine how trusted and known they are.
+        3. As a First Time Visitor, I want to view the site on multiple devices at different times, and want the experience to be the same on all devices
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about coding challenges.
+        1. As a Returning Visitor, I want to find out who is behind Blackshaw Theatre and what they do.
         2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
+        3. As a Returning Visitor, I want to find see what kind of presence they have on social media sites
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+        1. As a Frequent User, I want to check to see if there are any new shows out to see.
+        2. As a Frequent User, I want to purchase tickets for the shows while still being able to come back to the site
+        3. As a Frequent User, I want to work with the company to produce a show, speak with the owner directly.
 
 -   ### Design
     -   #### Colour Scheme
