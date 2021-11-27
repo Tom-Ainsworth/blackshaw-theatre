@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Domine&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
 
 * {
     margin: 0;
@@ -13,7 +13,7 @@ html {
 }
 
 body {
-    font-family: "Open-Sans", Domine;
+    font-family: 'Domine', serif;
 }
 
 h1 {
@@ -272,7 +272,7 @@ nav {
     border-radius: 5px;
     color: #cdd0d4;
     background-color: black;
-    font-family: "Open-Sans", Domine;
+    font-family: 'Domine', serif;
 }
 
 form textarea {
@@ -286,7 +286,7 @@ form textarea {
     padding: 10px 0px;
     border: 2px solid #cdd0d4;
     border-radius: 5px;
-    font-family: "Open-Sans", Domine;
+    font-family: 'Domine', serif;
 }
 
 #form-section label {
@@ -299,7 +299,7 @@ form textarea {
     border: 2px solid #cdd0d4;
     margin: 20px 0px 0px;
     padding: 4px;
-    font-family: "Open-Sans", Domine;
+    font-family: 'Domine', serif;
     font-size: 16px;
 }
 
