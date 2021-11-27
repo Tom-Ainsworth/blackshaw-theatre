@@ -13,6 +13,24 @@
 
 ***
 
+## Purpose
+
+The purpose of this project is to demonstrate my ability in creating a static frontend appliction using HTML and CSS. I hope to create a working website that meets the needs of both user and client, by being easy to navigate and including all desired features.
+
+## Objective
+
+The objective of this site is to introduce new users to Blackshaw Theatre, and tell them a little bit about who Blackshaw are, and what they offer in terms of live performanes.
+
+Blackshaw Theatre currently have a [website](https://blackshawtheatre.wordpress.com/) made using wordpress, and Ellie Pitkin asked me to create a more sleek design to host the main features of the site.
+
+The client would like the site to include:
+
+- A brief description about what Blackshaw Theatre is
+- The latest performances with links to purchase a ticket
+- An About Us section with a brief introduction to the primary staff members.
+- A contact form for any individials or businesses to get in touch for questions and collaborations
+- Social media links to Blackshaw's pages on Facebook, Instagram and Twitter
+
 
 
 ## User Experience (UX)
