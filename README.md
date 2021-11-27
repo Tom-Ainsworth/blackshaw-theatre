@@ -60,13 +60,14 @@ The client would like the site to include:
     -   #### Imagery
         -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It features a theatre cast on stage under the lights, to evoke an emotive response of excitement and professionalism in the user. The dark image matches the colour scheme of the site well, contrasting with the logo at the top. All other images are either very dark or very light to keep with the text/background theme.
 
+ ## Initial Plan
+
+ At the beginning, the plan was to create a multi page site split into the sectons required by the client seen [here](). After further consultion with my mentor Antonio Rodriguez, we agreed that a mobile first 
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](https://github.com/)
+    -   Desktop Wireframe - [View](https://github.com/)
 
     -   Mobile Wireframe - [View](https://github.com/)
-
-    -   Contact Us Page Wireframe - [View](https://github.com/)
 
 ## Features
 
