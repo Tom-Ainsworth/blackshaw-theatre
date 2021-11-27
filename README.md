@@ -1,6 +1,6 @@
-<h1 align="center">Code Institute Website</h1>
+<h1 align="center">Blackshaw Theatre</h1>
 
-[View the live project here.](https://codeinstitute.net)
+[View the live project here.](https://tom-ainsworth.github.io/blackshaw-theatre/)
 
 This is the main marketing website for Code Institute. It is designed to be responsibe and accessible on a range of devices, making it easy to navigate for potential students and partners.
 
