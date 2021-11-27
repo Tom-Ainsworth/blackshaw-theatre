@@ -52,13 +52,13 @@ The client would like the site to include:
         2. As a Frequent User, I want to purchase tickets for the shows while still being able to come back to the site
         3. As a Frequent User, I want to work with the company to produce a show, speak with the owner directly.
 
--   ### Design
+-   ### UXD User Experience Design
     -   #### Colour Scheme
         -   I kept the colour scheme simple to aid accessibility. The current site used black and white, with an off white shade of #cdd0d4 used in the form section to allow it stand out from the background, while still being subtle.
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   Domine is the primary font used on the page, with Serif as a backup. Initially I chose Open-Sans as the font, with Domine as a backup/extra font, however I found that I wasn't changing the font on any areas of the page. As a result I chose to solely use Domine, as it is a lighter font than Open-Sans, and Serif is more widely available should Domine fail to render.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a modern, energetic aesthetic.
+        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It features a theatre cast on stage under the lights, to evoke an emotive response of excitement and professionalism in the user. The dark image matches the colour scheme of the site well, contrasting with the logo at the top. All other images are either very dark or very light to keep with the text/background theme.
 
 *   ### Wireframes
 
