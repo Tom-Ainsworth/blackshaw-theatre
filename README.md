@@ -19,7 +19,7 @@
     - [User Stories](#user-stories)
     - [UXD User Experience Design](#uxd-user-experience-design)
 - [Initial Plan](#initial-plan)
- - [Wireframes](#wireframes)
+ - [Wireframes - Seperate Document](readme-content/wireframes.md)
 - [Features](#features)
     - [Current Features](#current-features)
     - [Features Left to Implement](#features-left-to-implement)
