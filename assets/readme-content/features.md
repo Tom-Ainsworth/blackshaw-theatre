@@ -9,6 +9,9 @@
 - [Call to Action Buttons](#call-to-action-buttons)
 - [Shows](#shows)
 - [About Overlay](#about-overlay)
+- [Contact](#contact)
+- [Submit Button](#submit-button)
+- [Footer](#footer)
 
 ## Navigation Bar
 
