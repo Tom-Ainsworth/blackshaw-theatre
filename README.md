@@ -58,11 +58,11 @@ The client would like the site to include:
     -   #### Typography
         -   Domine is the primary font used on the page, with Serif as a backup. Initially I chose Open-Sans as the font, with Domine as a backup/extra font, however I found that I wasn't changing the font on any areas of the page. As a result I chose to solely use Domine, as it is a lighter font than Open-Sans, and Serif is more widely available should Domine fail to render.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It features a theatre cast on stage under the lights, to evoke an emotive response of excitement and professionalism in the user. The dark image matches the colour scheme of the site well, contrasting with the logo at the top. All other images are either very dark or very light to keep with the text/background theme.
+        -   The images used were from the client, and also [Pexels](https://www.pexels.com/) for the hero image, and Miss McSkimming show. The large, background hero image is designed to be striking and catch the user's attention. It features a theatre cast on stage under the lights, to evoke an emotive response of excitement and professionalism in the user. The dark image matches the colour scheme of the site well, contrasting with the logo at the top. The boat image is to give a little bit of context to the show it relates to, and help the user envisage the scene.
 
  ## Initial Plan
 
- At the beginning, the plan was to create a multi page site split into the sectons required by the client seen [here](). After further consultion with my mentor Antonio Rodriguez, we agreed that a mobile first would be a more appropriate method, as it means less clicking for the user, quicker load times for the page, as I wouldn't have to keep repeating header and footer code.
+ At the beginning, the plan was to create a multi page site split into the sectons required by the client seen [here](readme-content/wireframes.md). After further consultion with my mentor Antonio Rodriguez, we agreed that a mobile first would be a more appropriate method, as it means less clicking for the user, quicker load times for the page, as I wouldn't have to keep repeating header and footer code.
 
 *   ### Wireframes
 
@@ -74,11 +74,7 @@ I have included both mobile and desktop wireframes to demonstrate the progressio
 
 -   Though tablet wireframes were not made seperately, I knew that by having a mobile first approach, I would be able to scale the site up to tablet sizes relatively easily.
 
--   Interactive elements
-    - All buttons on the page invert when hovered, drawing attention to all further buttons on the page, and making users more likely to engage with them
-    - The images in the about me section overlay with text, drawing users in to read the content, and therefore remain on the page longer
-    - The whole website scrolls smoothly, making it a lot more satisfying to use the navigation bar, and other buttons with internal links.
-    
+# Exisiting Features
 
 ## Technologies Used
 
@@ -89,31 +85,34 @@ I have included both mobile and desktop wireframes to demonstrate the progressio
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
     - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
+1. [TinyPNG:](https://tinypng.com/)
+    - TinyPNG was used to compress image file sizes.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+    - Balsamiq was used to create the [Wireframes](readme-content/wireframes.md) during the design process.
 
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftom-ainsworth.github.io%2Fblackshaw-theatre%2F)
+![HTML Result](readme-content/images/w3school-html-validation.png)
+
+
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftom-ainsworth.github.io%2Fblackshaw-theatre%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+    - 6 Warnings were found, with 4 relating to the nav bar border colour being the same
+        - 4 warnings about the nav bar border colour being the same as the background. This was due to the hover effect and so was not a concern.
+        - 2 warnings were related to code applied to placeholder colour, necessary when using the website in various browsers. I was also happy with this code being included.
 
 ### Testing User Stories from User Experience (UX) Section
 
