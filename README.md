@@ -118,10 +118,33 @@ Though tablet wireframes were not made seperately, I knew that by having a mobil
 1. The colour scheme has been chosen to maximise contrast between foreground and background elements. Where text is features over an image, an overlay or background has been applied to make it more visible.
 ![Hero Text](assets/readme-content/images/hero-image-feature.png)
 
+1. The description section tells the user briefly what it is that the company does, leaving no guess work.
+![Description Feature](assets/readme-content/images/description-feature.png)
+
 1. Buttons have been added around relevant elements to encourage the user to interact with the site. The button changes on hover to let the user know it is clickable.
 ![CTA Buttons](assets/readme-content/images/call-to-action-feature.png)
+
+1. The shows section has a matching image with information where possible to draw the user into the section.
+![Shows Feature](assets/readme-content/images/shows-feature.png)
+
+1. The about section has a text overlay effect on hover for each image, allowing the user to interact and choose the information they wish to view.
+![About Feature](assets/readme-content/images/about-feature.png)
+
+1. The contact form allows users to get in touch the Blackshaw Theatre, and stands out from the rest of the site, with inverted colours.
+![Contact Feature](assets/readme-content/images/contact-feature.png)
+
+1. The submit button at the botton of the contact form stands out, encouraging users to complete and send the form. It has a hover effect, and an animation when pressed.
+![Submit Hover Feature](assets/readme-content/images/submit-hover-feature.png)
+![Submit Click Feature](assets/readme-content/images/submit-click-feature.png)
+
+1. The footer contains social links that open in a new tab, with a nopener property for added userr security.
+![Footer Feature](assets/readme-content/images/footer-feature.png)
+
 ### Features Left to Implement
 
+1. I would like to add a blog page, within the site, with a maintainable layout that can be easily edited or replicated for new entries.
+1. The hero image could be a slideshow of images, or a video of Blackshaw in action, increasing user retention.
+1. 
 ## Technologies Used
 
 1. [Pexels](https://www.pexels.com/)
