@@ -224,16 +224,14 @@ The project was deployed to GitHub Pages using the following steps...
 
 ### Content
 
--   All content was written by the developer.
+-   All code was written by the developer.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
-
-### Media
-
--   All Images were created by the developer.
+-   README.md Template courtesy of Code Instite, with layout inspiration from [Dave Horrocks](https://github.com/DaveyJH/ci-portfolio-one-v4)
 
 ### Acknowledgements
 
 -   My Mentor for continuous helpful feedback.
 
--   Tutor support at Code Institute for their support.
+-   The September 2021 Slack group for constant support for one another and bumps when feeling overwhelmed.
+
+-   Fellow CI student Dave Horrocks for quick and incredibly helpful tips on several occasions, and for providing an inspiring project to work towards.
