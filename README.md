@@ -310,7 +310,7 @@ The project was deployed to GitHub Pages using the following steps...
 ### Content
 
 -   All code was written by myself apart from the segments above, which were adapted to suit the sites needs.
--   README.md Template courtesy of Code Instite, with layout inspiration from [Dave Horrocks](https://github.com/DaveyJH/ci-portfolio-one-v4)
+-   README.md Template courtesy of Code Instite, with layout inspiration from [Dave Horrocks](https://github.com/DaveyJH)
 
 ### Acknowledgements
 
