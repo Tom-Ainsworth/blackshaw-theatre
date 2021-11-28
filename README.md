@@ -109,7 +109,12 @@ Though tablet wireframes were not made seperately, I knew that by having a mobil
 
 ## Features
 
+[See All Features](assets/readme-content/features.md)
 ### Current Features
+
+- The navigation bar is central and at the top of the page on all devices. It lays out the flow of the page and links smoothly to the appropriate section.
+![Nav Bar]()
+- The colour scheme has been chosen to maximise contrast between foreground and background elements. Where text is features over an image, an overlay or background has been applied to make it more visible.
 
 ### Features Left to Implement
 
