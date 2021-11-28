@@ -144,10 +144,13 @@ Though tablet wireframes were not made seperately, I knew that by having a mobil
 
 1. I would like to add a blog page, within the site, with a maintainable layout that can be easily edited or replicated for new entries.
 1. The hero image could be a slideshow of images, or a video of Blackshaw in action, increasing user retention.
+1. I would like the footer links to invert on hover, but just the image rather than any background behind it.
+1. Blackshaw Theatre have a podcast on Podbean. It would be useful to have a media player built in so users can listen through the website.
+1. A shopify site with ticket links on the site would be better than sending users to external sites to purchase tickets. For bigget shows this could really help with analytics when working out where traffic is coming from.
 
 ## Technologies Used
 
-1. [Pexels](https://www.pexels.com/)
+1. [Pexels:](https://www.pexels.com/)
     - Pexels was used for royalty free images seen in the Hero Image and Shows sectons.
 1. [Google Fonts:](https://fonts.google.com/)
     - Google fonts were used to import the 'Domine' font into the style.css file which is used throughout the project.
@@ -159,6 +162,8 @@ Though tablet wireframes were not made seperately, I knew that by having a mobil
     - TinyPNG was used to compress image file sizes.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [Wireframes](assets/readme-content/wireframes.md) during the design process.
+1. [W3Schools:](https://www.w3schools.com/)
+    - W3Schools was used for quick access to tutorials, particularly for CSS.
 
 ## Testing
 
