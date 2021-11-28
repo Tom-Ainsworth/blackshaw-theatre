@@ -1,7 +1,7 @@
 # Blackshaw Theatre
 ## Portfolio Project 1 - HTML/CSS
 
-![Multiple Device Demo](readme-content/images/mutliple-device-mockup.png)
+![Multiple Device Demo](assets/readme-content/images/mutliple-device-mockup.png)
 
 ## Live Site
 
@@ -20,7 +20,6 @@
     - [UXD User Experience Design](#uxd-user-experience-design)
 - [Initial Plan](#initial-plan)
     - [Wireframes](#wireframes)
-    - [Wireframes - Seperate Document](assets/readme-content/wireframes.md)
 - [Features](#features)
     - [Current Features](#current-features)
     - [Features Left to Implement](#features-left-to-implement)
@@ -49,11 +48,11 @@
 
 ## Purpose
 
-The purpose of this project is to demonstrate my ability in creating a static frontend appliction using HTML and CSS. I hope to create a working website that meets the needs of both user and client, by being easy to navigate and including all desired features.
+The purpose of this project is to demonstrate my ability in creating a static frontend appliction using the programming languages: HTML and CSS. I hope to create a working website that meets the needs of both user and client, by being easy to navigate and including all desired features.
 
 ## Objective
 
-The objective of this site is to introduce new users to Blackshaw Theatre, and tell them a little bit about who Blackshaw are, and what they offer in terms of live performanes.
+The objective of this site is to introduce new users to Blackshaw Theatre, and tell them a little bit about who Blackshaw are, and what they offer in terms of live performances.
 
 Blackshaw Theatre currently have a [website](https://blackshawtheatre.wordpress.com/) made using wordpress, and Ellie Pitkin asked me to create a more sleek design to host the main features of the site.
 
@@ -73,7 +72,7 @@ The client would like the site to include:
 
         1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn more about the organisation.
         2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-        3. As a First Time Visitor, I want to view the site on multiple devices at different times, and want the experience to be the same on all devices
+        3. As a First Time Visitor, I want to view the site on multiple devices at different times, and want the experience to be the same on all devices.
 
     -   #### Returning Visitor Goals
 
@@ -83,7 +82,7 @@ The client would like the site to include:
 
     -   #### Frequent User Goals
         1. As a Frequent User, I want to check to see if there are any new shows out to see.
-        2. As a Frequent User, I want to purchase tickets for the shows while still being able to come back to the site
+        2. As a Frequent User, I want to purchase tickets for the shows while still being able to come back to the site.
         3. As a Frequent User, I want to work with the company to produce a show, and speak with the owner directly.
 
 -   ### UXD User Experience Design
@@ -92,21 +91,23 @@ The client would like the site to include:
     -   #### Typography
         -   Domine is the primary font used on the page, with Serif as a backup. Initially I chose Open-Sans as the font, with Domine as a backup/extra font, however I found that I wasn't changing the font on any areas of the page. As a result I chose to solely use Domine, as it is a lighter font than Open-Sans, and Serif is more widely available should Domine fail to render.
     -   #### Imagery
-        -   The images used were from the client, and also [Pexels](https://www.pexels.com/) for the hero image, and Miss McSkimming show. The large, background hero image is designed to be striking and catch the user's attention. It features a theatre cast on stage under the lights, to evoke an emotive response of excitement and professionalism in the user. The dark image matches the colour scheme of the site well, contrasting with the logo at the top. The boat image is to give a little bit of context to the show it relates to, and help the user envisage the scene.
+        -   The images used were from the client, and also [Pexels](https://www.pexels.com/) for the hero image, and Miss McSkimming show. The large, background hero image is designed to be striking and catch the user's attention. It features a theatre cast on stage under the lights, to evoke an emotive response of excitement and professionalism in the user. The dark image matches the colour scheme of the site well, contrasting with the logo at the top. The boat image is to give a little bit of context to the show it relates to, and help the user envisage the scene. About section features high resolution images of the relevant staff member.
 
 ## Initial Plan
 
- At the beginning, the plan was to create a multi page site split into the sectons required by the client seen [here](assets/readme-content/wireframes.md). After further consultion with my mentor Antonio Rodriguez, we agreed that a mobile first would be a more appropriate method, as it means less clicking for the user, quicker load times for the page, as I wouldn't have to keep repeating header and footer code. The mobile wireframes are the final idea, and then the desktop site was built around this design.
+ At the start of the project, the plan was to create a multi page site split into the sectons required by the client seen [here](assets/readme-content/wireframes.md). After further consultion with my mentor Antonio Rodriguez, we agreed that a mobile first would be a more appropriate method, as it means less clicking for the user, quicker load times for the page, as I wouldn't have to keep repeating header and footer code. This change work well for the client too.
+ 
+ The mobile wireframes are the final idea, and then the desktop site was built around this design.
 
-*   ### Wireframes
-
-I have included both mobile and desktop wireframes to demonstrate the progression in the project. As you can see, the core elements remain for both sets, but the layout is far closer to the mobile wireframes than desktop.
+### Wireframes
 
 [Wireframes - Seperate document](assets/readme-content/wireframes.md)
 
-## Features
+I have included both mobile and desktop wireframes to demonstrate the progression in the project. As you can see, the core elements remain for both sets, but the layout is far closer to the mobile wireframes than desktop.
 
--   Though tablet wireframes were not made seperately, I knew that by having a mobile first approach, I would be able to scale the site up to tablet sizes relatively easily.
+Though tablet wireframes were not made seperately, I knew that by having a mobile first approach, I would be able to scale the site up to tablet sizes relatively easily.
+
+## Features
 
 ### Current Features
 
