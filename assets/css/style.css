@@ -294,14 +294,28 @@ form textarea {
 }
 
 .submit-button {
-    color: inherit;
-    background-color: inherit;
-    border: 2px solid #cdd0d4;
-    margin: 20px 0px 0px;
-    padding: 4px;
-    font-family: 'Domine', serif;
+    margin-top: 10px;
+    padding: 10px 25px;
     font-size: 16px;
+    cursor: pointer;
+    outline: none;
+    color: #cdd0d4;
+    background-color: #000000;
+    border: 2px solid #cdd0d4;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
 }
+
+.submit-button:hover {
+    color: black;
+    background-color: #cdd0d4;
+}
+
+.submit-button:active {
+    background-color: #cdd0d4;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
 ::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -351,6 +365,7 @@ footer li {
     .text p {
         font-size: large;
     }
+
     #hero-section {
         height: 650px;
     }
