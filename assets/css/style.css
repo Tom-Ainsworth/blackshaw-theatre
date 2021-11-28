@@ -44,8 +44,8 @@ p {
     margin: 0px 20px;
 }
 
-
 /* Main Logo */
+
 .main-logo {
     max-width: 100vw;
     max-height: 25vh;
@@ -56,6 +56,7 @@ p {
 }
 
 /* Navigation Bar */
+
 nav {
     margin: 8px 0px;
 }
@@ -92,6 +93,7 @@ nav {
 }
 
 /* Hero Image and Title */
+
 /* Code adapted from w3Schools Transparent Image Text tutorial */
 #hero-section {
     height: 400px;
@@ -139,6 +141,7 @@ nav {
 }
 
 /* Description Section "We Are Blackshaw" */
+
 #description {
     background-color: #ffffff;
     color: #000000;
@@ -337,12 +340,12 @@ footer li {
 }
 
 /* Media Queries */
+
 @media screen and (min-width: 641px) {
     #hero-image {
         background: url('../images/main-photo-tablet.jpeg') no-repeat center center;
     }
 }
-
 
 @media screen and (min-width: 768px) {
 
