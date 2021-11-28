@@ -315,7 +315,7 @@ form textarea {
     background-color: #cdd0d4;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
-  }
+}
 
 ::placeholder {
     /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -337,21 +337,24 @@ form textarea {
 /* Footer Section */
 
 footer {
-    margin: 20px;
+    padding: 20px;
+    color: #cdd0d4;
+    background-color: black;
+    border-top: 1px solid #cdd0d4;
 }
 
 footer a {
-    list-style-type: none;
     text-decoration: none;
     color: inherit;
+    text-align: center;
 }
 
 footer li {
+    margin: 0px 20px;
     display: inline;
-    padding: 0px 20px;
+    padding: 0px;
     font-size: 2rem;
 }
-
 /* Media Queries */
 
 @media screen and (min-width: 641px) {
