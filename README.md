@@ -112,10 +112,14 @@ Though tablet wireframes were not made seperately, I knew that by having a mobil
 [See All Features](assets/readme-content/features.md)
 ### Current Features
 
-- The navigation bar is central and at the top of the page on all devices. It lays out the flow of the page and links smoothly to the appropriate section.
-![Nav Bar]()
-- The colour scheme has been chosen to maximise contrast between foreground and background elements. Where text is features over an image, an overlay or background has been applied to make it more visible.
+1. The navigation bar is central and at the top of the page on all devices. It lays out the flow of the page and links smoothly to the appropriate section.
+![Nav Bar](assets/readme-content/images/iphone-12-navbar.jpg)
 
+1. The colour scheme has been chosen to maximise contrast between foreground and background elements. Where text is features over an image, an overlay or background has been applied to make it more visible.
+![Hero Text](assets/readme-content/images/hero-image-feature.png)
+
+1. Buttons have been added around relevant elements to encourage the user to interact with the site. The button changes on hover to let the user know it is clickable.
+![CTA Buttons](assets/readme-content/images/call-to-action-feature.png)
 ### Features Left to Implement
 
 ## Technologies Used
