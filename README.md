@@ -12,6 +12,9 @@
 [Blackshaw Theatre Repository](https://github.com/Tom-Ainsworth/blackshaw-theatre)
 
 ***
+## Contents
+- [Purpose](#Purpose)
+***
 
 ## Purpose
 
