@@ -259,11 +259,16 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 ### Fixed Bugs
 - At first the hero image was set within HTML based on mobile device sizes. When it came to making the site responsive, I found it difficult to implement the picture element, and so opted to change this to a background image within CSS. This gave me far more flexibility to style the image, and meant that I could swap the image out with media queries, making the site look much better on all screen sizes.
 
+- The text overlay on top of the hero image was only featured at the bottom of the screen on the W3Schools tutorial, so I had to figure out how to add it to the top as well. This went through several iterations of position changes, before I separated the text into cover-text-top and cover-text-bottom IDs. This made it much easier to style the text in relation to the hero image.
+
 - The shows section wouldn't scale into multiple columns like the about section does. I would have liked it to display the show info, with the image below. However it would only split the text on the left, and the images on the right, which wasn't very appealing to look at. I tried the same method I used for the about section, seperating the shows by classes: "show-1, show-2" which gave this result:
 ![Show bug 1](assets/readme-content/images/bug-2.png)
 
-I then tried adjusting the section as a whole, so that the content of each show div would stay together. However the h2 tag wouldn't stay central
+I then tried adjusting the section as a whole, so that the content of each show div would stay together. However the h2 tag wouldn't stay central, and the buttons from the first show were being cut in half.
 ![Show Bug 2](assets/readme-content/images/bug-3.png)
+
+I actually fixed this bug as I was writing it down as a known bug. I simply added a container to the shows section, and left the h2 tag outside of it, therefore allowing the h2 to stay central, and giving the buttons enough room beneath the image. This one was very satisfying to fix!
+![Shows Bug Fix](assets/readme-content/images/shows-bug-fix.png)
 
 - The overlay was causing me issues on the about section. I knew that I wanted to implement it quite early on, as I found it while researching image tags on [W3Schools](https://www.w3schools.com/howto/howto_css_image_overlay.asp). Tweaking the CSS properties from the code given took a lot of experimenting, as the positioning was very important to maintain the look of the site. As there are several class selectors, I needed to ensure I was calling the correct HTML, as my class names were different to that of the tutorial. I wanted to make this feature repeatable within a container "staff-bio" in case the client wanted to add any more staff members. At first I had indiviual height and width values for all selectors, however later decided to add inherited values to help with site maintainence.
 
@@ -293,18 +298,20 @@ The project was deployed to GitHub Pages using the following steps...
     - Code was used and adapted from [This Tutorial](https://www.w3schools.com/howto/howto_css_image_transparent.asp) for the text overlay on the hero image.
     - Code was used and adapted from [This Tutorial](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade) for the Overlay images in the About Section
     - Code was used and adapted from [This Tutorial](https://www.w3schools.com/howto/howto_css_placeholder.asp) to change the placeholder colour within form inputs on various browsers.
-    - Code was used from [Google Fonts](https://fonts.google.com/) to import the font family within my CSS file.
-    - Code was used from [Font Awesome](https://fontawesome.com/) to add social media links in the footer.
+    - Code was used and adapted from [This Tutorial](https://www.w3schools.com/howto/howto_css_animate_buttons.asp) to create the animated submit button on the contact form.
+- Code was used from [Google Fonts](https://fonts.google.com/) to import the font family within my CSS file.
+- Code was used from [Font Awesome](https://fontawesome.com/) to add social media links in the footer.
 
 ### Content
 
--   All code was written by the developer.
-
+-   All code was written by myself apart from the segments above, which were adapted to suit the sites needs.
 -   README.md Template courtesy of Code Instite, with layout inspiration from [Dave Horrocks](https://github.com/DaveyJH/ci-portfolio-one-v4)
 
 ### Acknowledgements
 
--   My Mentor for continuous helpful feedback.
+-   Ellie Pitkin, the owner of Blackshaw Theatre for allowing me to use the company site for this project.
+
+-   My Mentor Antonio Rodriguez for helpful feedback and ideas.
 
 -   The September 2021 Slack group for constant support for one another and bumps when feeling overwhelmed.
 
