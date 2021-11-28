@@ -144,7 +144,7 @@ Though tablet wireframes were not made seperately, I knew that by having a mobil
 
 1. I would like to add a blog page, within the site, with a maintainable layout that can be easily edited or replicated for new entries.
 1. The hero image could be a slideshow of images, or a video of Blackshaw in action, increasing user retention.
-1. 
+
 ## Technologies Used
 
 1. [Pexels](https://www.pexels.com/)
