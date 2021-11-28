@@ -19,7 +19,8 @@
     - [User Stories](#user-stories)
     - [UXD User Experience Design](#uxd-user-experience-design)
 - [Initial Plan](#initial-plan)
- - [Wireframes - Seperate Document](readme-content/wireframes.md)
+    - [Wireframes](#wireframes)
+    - [Wireframes - Seperate Document](assets/readme-content/wireframes.md)
 - [Features](#features)
     - [Current Features](#current-features)
     - [Features Left to Implement](#features-left-to-implement)
@@ -95,7 +96,7 @@ The client would like the site to include:
 
 ## Initial Plan
 
- At the beginning, the plan was to create a multi page site split into the sectons required by the client seen [here](readme-content/wireframes.md). After further consultion with my mentor Antonio Rodriguez, we agreed that a mobile first would be a more appropriate method, as it means less clicking for the user, quicker load times for the page, as I wouldn't have to keep repeating header and footer code. The mobile wireframes are the final idea, and then the desktop site was built around this design.
+ At the beginning, the plan was to create a multi page site split into the sectons required by the client seen [here](assets/readme-content/wireframes.md). After further consultion with my mentor Antonio Rodriguez, we agreed that a mobile first would be a more appropriate method, as it means less clicking for the user, quicker load times for the page, as I wouldn't have to keep repeating header and footer code. The mobile wireframes are the final idea, and then the desktop site was built around this design.
 
 *   ### Wireframes
 
