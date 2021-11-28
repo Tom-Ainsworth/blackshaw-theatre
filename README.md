@@ -15,7 +15,36 @@
 ## Contents
 - [Purpose](#purpose)
 - [Objective](#objective)
-- [User Experience (UX)](#user-experience-(ux)) 
+- [User Experience](#user-experience)
+    - [User Stories](#user-stories)
+    - [UXD User Experience Design](#uxd-user-experience-design)
+- [Initial Plan](#initial-plan)
+ - [Wireframes](#wireframes)
+- [Features](#features)
+    - [Current Features](#current-features)
+    - [Features Left to Implement](#features-left-to-implement)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+    - [Code Validation](#code-validation)
+    - [Testing User Stories](#testing-user-stories)
+        - [First Time Visitor Goals](#first-time-visitor-goals)
+        - [Returning Visitor Goals](#returning-visitor-goals)
+        - [Frequent User Goals](#frequent-user-goals)
+    - [Further Testing](#further-testing)
+    - [Lighthouse Results](#lighthouse-results)
+        - [Mobile](#mobile)
+        - [Desktop](#desktop)
+- [Bugs](#bugs)
+    - [Known Bugs](#known-bugs)
+    - [Fixed Bugs](#fixed-bugs)
+- [Deployment](#deployment)
+    - [Github Pages](#github-pages)
+- [Credits](#credits)
+    - [Code](#code)
+    - [Content](#content)
+    - [Acknowledgements](#acknowledgements)
+***
+
 
 ## Purpose
 
@@ -35,7 +64,7 @@ The client would like the site to include:
 - A contact form for any individials or businesses to get in touch for questions and collaborations
 - Social media links to Blackshaw's pages on Facebook, Instagram and Twitter
 
-## User Experience (UX)
+## User Experience
 
 -   ### User stories
 
@@ -64,9 +93,9 @@ The client would like the site to include:
     -   #### Imagery
         -   The images used were from the client, and also [Pexels](https://www.pexels.com/) for the hero image, and Miss McSkimming show. The large, background hero image is designed to be striking and catch the user's attention. It features a theatre cast on stage under the lights, to evoke an emotive response of excitement and professionalism in the user. The dark image matches the colour scheme of the site well, contrasting with the logo at the top. The boat image is to give a little bit of context to the show it relates to, and help the user envisage the scene.
 
- ## Initial Plan
+## Initial Plan
 
- At the beginning, the plan was to create a multi page site split into the sectons required by the client seen [here](readme-content/wireframes.md). After further consultion with my mentor Antonio Rodriguez, we agreed that a mobile first would be a more appropriate method, as it means less clicking for the user, quicker load times for the page, as I wouldn't have to keep repeating header and footer code.
+ At the beginning, the plan was to create a multi page site split into the sectons required by the client seen [here](readme-content/wireframes.md). After further consultion with my mentor Antonio Rodriguez, we agreed that a mobile first would be a more appropriate method, as it means less clicking for the user, quicker load times for the page, as I wouldn't have to keep repeating header and footer code. The mobile wireframes are the final idea, and then the desktop site was built around this design.
 
 *   ### Wireframes
 
@@ -78,25 +107,18 @@ I have included both mobile and desktop wireframes to demonstrate the progressio
 
 -   Though tablet wireframes were not made seperately, I knew that by having a mobile first approach, I would be able to scale the site up to tablet sizes relatively easily.
 
-# Exisiting Features
+### Current Features
+
+### Features Left to Implement
 
 ## Technologies Used
 
-### Languages Used
-
--   [HTML5](https://en.wikipedia.org/wiki/HTML5)
--   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
-
-### Frameworks, Libraries & Programs Used
-
-1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+1. [Pexels](https://www.pexels.com/)
+    - Pexels was used for royalty free images seen in the Hero Image and Shows sectons.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Domine' font into the style.css file which is used throughout the project.
 1. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
-1. [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+    - Font Awesome was used for the footer social media icons.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
 1. [TinyPNG:](https://tinypng.com/)
@@ -105,6 +127,8 @@ I have included both mobile and desktop wireframes to demonstrate the progressio
     - Balsamiq was used to create the [Wireframes](readme-content/wireframes.md) during the design process.
 
 ## Testing
+
+### Code Validation
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
@@ -118,7 +142,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
         - 4 warnings about the nav bar border colour being the same as the background. This was due to the hover effect and so was not a concern.
         - 2 warnings were related to code applied to placeholder colour, necessary when using the website in various browsers. I was also happy with this code being included.
 
-### Testing User Stories from User Experience (UX) Section
+### Testing User Stories
 
 -   #### First Time Visitor Goals
 
@@ -179,13 +203,21 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 -   I tested the page using GoogleDev Tools Lighthouse feature on both mobile and desktop settings
 
-### Mobile
+### Lighthouse Results
+
+#### Mobile
 
 ![Mobile](readme-content/images/lighthouse-result-mobile.png)
 
-### Desktop
+#### Desktop
 
 ![Desktop](readme-content/images/lighthouse-result-desktop.png)
+
+## Bugs
+
+### Known Bugs
+-   When reducing the site from around 1775px to 1575px, the About section images overlap slightly. The screen sizes I tested the site on do not show this at all, I only noticed it when manually dragging the screen down through these dimensions, as seen here:
+![Known Bug](readme-content/images/bug-1.png)
 
 ### Fixed Bugs
 - At first the hero image was set within HTML based on mobile device sizes. When it came to making the site responsive, I found it difficult to implement the picture element, and so opted to change this to a background image within CSS. This gave me far more flexibility to style the image, and meant that I could swap the image out with media queries, making the site look much better on all screen sizes.
@@ -193,11 +225,6 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 - The overlay was causing me issues on the about section. I knew that I wanted to implement it quite early on, as I found it while researching image tags on [W3Schools](https://www.w3schools.com/howto/howto_css_image_overlay.asp). Tweaking the CSS properties from the code given took a lot of experimenting, as the positioning was very important to maintain the look of the site. As there are several class selectors, I needed to ensure I was calling the correct HTML, as my class names were different to that of the tutorial. I wanted to make this feature repeatable within a container "staff-bio" in case the client wanted to add any more staff members. At first I had indiviual height and width values for all selectors, however later decided to add inherited values to help with site maintainence.
 
 - As I knew the site would be scaled up, I tried to make all text responsive from the get go, using the vw property to unify all elements of the same type. This worked quite well for mobile and tablet, but meant that desktop text was far too large. I researched more standardised sizings and noticed that major sites such as Apple, Facebook and Youtube had very similar pixel values for the relative elements. After adding these to media queries, and adjusting the primary sizing, the page looked far better when resizing the screen.
-
-### Known Bugs
--   When reducing the site from around 1775px to 1575px, the About section images overlap slightly. The screen sizes I tested the site on do not show this at all, I only noticed it when manually dragging the screen down through these dimensions, as seen here:
-![Known Bug](readme-content/images/bug-1.png)
-
 
 ## Deployment
 
