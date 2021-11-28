@@ -102,7 +102,7 @@ The client would like the site to include:
 
 I have included both mobile and desktop wireframes to demonstrate the progression in the project. As you can see, the core elements remain for both sets, but the layout is far closer to the mobile wireframes than desktop.
 
-[Wireframes - Seperate document](readme-content/wireframes.md)
+[Wireframes - Seperate document](assets/readme-content/wireframes.md)
 
 ## Features
 
@@ -125,7 +125,7 @@ I have included both mobile and desktop wireframes to demonstrate the progressio
 1. [TinyPNG:](https://tinypng.com/)
     - TinyPNG was used to compress image file sizes.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [Wireframes](readme-content/wireframes.md) during the design process.
+    - Balsamiq was used to create the [Wireframes](assets/readme-content/wireframes.md) during the design process.
 
 ## Testing
 
@@ -134,14 +134,17 @@ I have included both mobile and desktop wireframes to demonstrate the progressio
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
 -   [W3C Markup Validator](https://validator.w3.org/#validate_by_uri) - [Results](https://validator.w3.org/nu/?doc=https%3A%2F%2Ftom-ainsworth.github.io%2Fblackshaw-theatre%2F)
-![HTML Result](readme-content/images/w3school-html-validation.png)
+
+![HTML Result](assets/readme-content/images/w3school-html-validation.png)
 
 
 -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) - [Results](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ftom-ainsworth.github.io%2Fblackshaw-theatre%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+![CSS Result](assets/readme-content/images/w3school-css-validation.png)
     - 6 Warnings were found, with 4 relating to the nav bar border colour being the same
         - 4 warnings about the nav bar border colour being the same as the background. This was due to the hover effect and so was not a concern.
         - 2 warnings were related to code applied to placeholder colour, necessary when using the website in various browsers. I was also happy with this code being included.
+    
 
 ### Testing User Stories
 
@@ -208,17 +211,17 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 #### Mobile
 
-![Mobile](readme-content/images/lighthouse-result-mobile.png)
+![Mobile](assets/readme-content/images/lighthouse-result-mobile.png)
 
 #### Desktop
 
-![Desktop](readme-content/images/lighthouse-result-desktop.png)
+![Desktop](assets/readme-content/images/lighthouse-result-desktop.png)
 
 ## Bugs
 
 ### Known Bugs
 -   When reducing the site from around 1775px to 1575px, the About section images overlap slightly. The screen sizes I tested the site on do not show this at all, I only noticed it when manually dragging the screen down through these dimensions, as seen here:
-![Known Bug](readme-content/images/bug-1.png)
+![Known Bug](assets/readme-content/images/bug-1.png)
 
 ### Fixed Bugs
 - At first the hero image was set within HTML based on mobile device sizes. When it came to making the site responsive, I found it difficult to implement the picture element, and so opted to change this to a background image within CSS. This gave me far more flexibility to style the image, and meant that I could swap the image out with media queries, making the site look much better on all screen sizes.
