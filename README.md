@@ -12,9 +12,6 @@
 [Blackshaw Theatre Repository](https://github.com/Tom-Ainsworth/blackshaw-theatre)
 
 ***
-## Contents
-- [Purpose](#Purpose)
-***
 
 ## Purpose
 
@@ -65,18 +62,23 @@ The client would like the site to include:
 
  ## Initial Plan
 
- At the beginning, the plan was to create a multi page site split into the sectons required by the client seen [here](). After further consultion with my mentor Antonio Rodriguez, we agreed that a mobile first 
+ At the beginning, the plan was to create a multi page site split into the sectons required by the client seen [here](). After further consultion with my mentor Antonio Rodriguez, we agreed that a mobile first would be a more appropriate method, as it means less clicking for the user, quicker load times for the page, as I wouldn't have to keep repeating header and footer code.
+
 *   ### Wireframes
 
-    -   Desktop Wireframe - [View](https://github.com/)
+I have included both mobile and desktop wireframes to demonstrate the progression in the project. As you can see, the core elements remain for both sets, but the layout is far closer to the mobile wireframes than desktop.
 
-    -   Mobile Wireframe - [View](https://github.com/)
+[Wireframes - Seperate document](readme-content/wireframes.md)
 
 ## Features
 
--   Responsive on all device sizes
+-   Though tablet wireframes were not made seperately, I knew that by having a mobile first approach, I would be able to scale the site up to tablet sizes relatively easily.
 
 -   Interactive elements
+    - All buttons on the page invert when hovered, drawing attention to all further buttons on the page, and making users more likely to engage with them
+    - The images in the about me section overlay with text, drawing users in to read the content, and therefore remain on the page longer
+    - The whole website scrolls smoothly, making it a lot more satisfying to use the navigation bar, and other buttons with internal links.
+    
 
 ## Technologies Used
 
