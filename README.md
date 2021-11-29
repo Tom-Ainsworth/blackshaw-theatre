@@ -124,7 +124,6 @@ Though tablet wireframes were not made seperately, I knew that by having a mobil
 ![Description Feature](assets/readme-content/images/description-feature.png)
 
 1. Buttons have been added around relevant elements to encourage the user to interact with the site. The button changes on hover to let the user know it is clickable.
-
 ![CTA Buttons](assets/readme-content/images/call-to-action-feature.png)
 
 1. The shows section has a matching image with information where possible to draw the user into the section.
