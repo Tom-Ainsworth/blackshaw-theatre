@@ -24,6 +24,8 @@
     - [Current Features](#current-features)
     - [Features Left to Implement](#features-left-to-implement)
 - [Technologies Used](#technologies-used)
+    - [Languages](#languages)
+    - [Other Technologies](#other-technologies)
 - [Testing](#testing)
     - [Code Validation](#code-validation)
     - [Testing User Stories](#testing-user-stories)
@@ -149,6 +151,13 @@ Though tablet wireframes were not made seperately, I knew that by having a mobil
 1. A shopify site with ticket links on the site would be better than sending users to external sites to purchase tickets. For bigget shows this could really help with analytics when working out where traffic is coming from.
 
 ## Technologies Used
+
+### Languages
+
+1. [HTML5](https://en.wikipedia.org/wiki/HTML5)
+1. [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+### Other Technologies
 
 1. [Pexels:](https://www.pexels.com/)
     - Pexels was used for royalty free images seen in the Hero Image and Shows sectons.
